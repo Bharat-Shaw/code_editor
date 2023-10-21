@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  width: 95%;
+  margin: 20px auto;
+}
+
+.editor{
+  display: flex; 
+  width: 95%; 
+  margin: auto; 
+  gap: 20px;
+}
+
+.editor_code{
+  display: flex; 
+  flex-direction: column;
+  flex: 1;
+  height: 87vh;
+}
+
+.editor_output{
+  display: flex; 
+  flex-direction: column; 
+  flex: 1;
+}
+
+.editor_button{
+  display: flex; 
+  justify-content: end;
+  gap: 15px; 
+  margin-top: 10px;
+}
+
+.editor_button--size{
+  flex:1;
+  padding: 8px 15px;
+}
+
+.editor_button--blue{
+  background-color: rgb(78, 78, 191);
+}
+
+.editor_button--green{
+  background-color: rgb(79, 206, 24);
+}
+
+.editor_button--gray{
+  background-color: rgb(157, 156, 156);
+}
+
+.editor_button--red{
+  background-color: rgb(246, 14, 14);
+}
+
+.display_area{
+  flex: 1;
+}
